@@ -17,7 +17,7 @@ namespace TestAAD.Droid
     [IntentFilter(new[] { Intent.ActionView },
            Categories = new[] { Intent.CategoryBrowsable, Intent.CategoryDefault },
            DataHost = "auth",
-           DataScheme = "msalec28d429-40c4-4ebc-8f8f-db9236df8830")]
+           DataScheme = "msalCLIENT-ID-GOES-HERE")]
     public class MsalActivity : BrowserTabActivity
     {
     }
